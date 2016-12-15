@@ -1,0 +1,26 @@
+<?php
+session_start();
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+//Use this php for control Your apps especially when You are in debugging mode.
+//control with comment sign to make it disable or enable.
+
+
+// Turn off error reporting
+  error_reporting(0);
+
+// Report runtime errors
+// error_reporting(E_ERROR | E_WARNING | E_PARSE);
+
+// Report all errors
+// error_reporting(E_ALL);
+
+// Same as error_reporting(E_ALL);
+// ini_set("error_reporting", E_ALL);
+
+// Report all errors except E_NOTICE
+// error_reporting(E_ALL & ~E_NOTICE);
