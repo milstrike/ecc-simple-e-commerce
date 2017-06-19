@@ -14,3 +14,5 @@ config site: config/baseConfig.php
 ==> kalau direktorinya menggunakan nama lain (misal ecommerce) maka baseConfig.php diedit pada bagian $site_base. defaultnya "http://localhost/ecc". silakan itu diedit dan disesuaikan. Jika tidak diedit/disesuaikan style, javascript tidak akan termuat.
 
 //konfig hanya dua itu saja
+
+Untuk mengetahui login demo (user / admin) silakan kontak Saya.
